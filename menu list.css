@@ -1,0 +1,73 @@
+body{
+    background-image: url("images/background.jpg");    ;
+    color: white;
+    font-family: Arial,sans-serif;
+}
+.menu-list{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    box-shadow: 0 0 5px rgba(red, green, blue, alpha);
+
+}
+ul {
+ list-style-type: none;
+ box-shadow: 0 0 10px cyan;
+ text-align: center;
+ padding: 10px;
+ background-color: rgb(8, 10, 10);width:100%;
+}
+li{
+  margin: 13px 0;
+  float:center;
+  font-style: italic;
+}
+dish{
+  font-weight:bold ;
+
+}
+
+h1{
+  color: white;
+  text-align: center; 
+}
+h5{
+   text-align: center;
+}
+.btns{
+  padding: 9px;
+  
+  box-shadow: 0 0 5px cyan,0 0 5px cyan;
+  text-align: center;
+}
+button{
+  box-shadow: 0 0 5px cyan,0 0 25px cyan;
+  background-color: rgb(24, 189, 201);
+  color: rgb(165, 48, 42);
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan;
+
+}
+button:active{
+  
+}
+hr{
+   height: 5px;
+   background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
