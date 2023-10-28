@@ -1,0 +1,78 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+.wrapper{
+           width: 1170px;
+           margin:auto;
+}
+
+header{
+       background: url("food bistro.png");
+       height:100vh;
+       -webkit-background-size:cover;
+      background-position:center center;
+      position: relative;
+} 
+.nav-area{
+          float: right;
+         list-style: none;
+         margin-top: 10px;
+}
+.nav-area li{
+       display: inline-block;
+       
+}
+.nav-area  li  a{
+       background-color: #00ced1;color:white;
+       border: none;
+       border-radius:  70px;
+       text-decoration: none;
+       padding: 5px 10px;
+       font-family:poppins;
+       font-size: 16px;
+       font-weight: bold; 
+       box-shadow: 0  0  10px cyan,
+             0 0 25px cyan;
+}
+.nav-area li a: hover{
+        background: #fff;
+        color: #333;
+}
+.logo img{
+       width: 100px;
+        float: left;
+       height:  auto;
+}
+
+body{
+          padding: 0;
+          margin: 0;
+           background-color: none;
+}
+button{
+         background-color: #00ced1;color:white;
+          border: none;
+          border-radius:  70px;
+          transition: all 0.2s ease; 
+          padding: 8px 22px;
+          position: absolute;
+          transfrom: translate(-50%,-50%);
+          top: 70%;
+          left:45%;
+          padding:  10px 10px;
+          font-size: 20px;
+          font-weight: bold;
+}
+button: active{
+        transform: scale(0.96);
+}
+button{
+            box-shadow: 0  0  10px cyan,
+             0 0 25px cyan;
+}
+button:hover{
+             box-shadow: 0 0 20px cyan,
+            0 0 30px cyan,0 0 50px cyan,
+            0 0  100px cyan, 0 0 600 px cyan;
+}
